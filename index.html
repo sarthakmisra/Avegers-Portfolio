@@ -2,29 +2,39 @@
 <html lang="en">
     
 <head>
+    <link  href="Style.css" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Avengers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 <section class="silence">
+    <img src="Avengers%20banner.jpg" style="width:100%";>
     <h1>Grid gallery</h1>
-  <a href="https://en.wikipedia.org/wiki/Captain_America" target="_blank"><img src="Captain%20America.jpg" class="gafas"></a>
-  <a href="https://en.wikipedia.org/wiki/Black_Panther_(character)" target="_blank"><img src="Black%20Panther.jpg" class="gafas"></a>
-<a href="https://en.wikipedia.org/wiki/Hulk" target="_blank"><img src="Hulk.jpg" class="gafas"></a>
-    <a href="https://en.wikipedia.org/wiki/Iron_Man" target="_blank"><img src="Iron%20man.jpg" class="gafas"></a>
-    <a href="https://en.wikipedia.org/wiki/Thanos" target="_blank"><img src="Thanos.jpg"class="gafas"></a>
-    <a href="https://en.wikipedia.org/wiki/Thor" target="_blank"><img src="Thor.jpg" class="gafas"></a>
-  <a href="https://en.wikipedia.org/wiki/Gamora" target="_blank"><img src="Gamora.jpg" class="gafas"></a> 
- <a href="https://en.wikipedia.org/wiki/Black_Widow_(Natasha_Romanova)"><img src="Black-Widow.jpg" class="gafas"></a>  
+    <div class="row">
+  <a href="https://en.wikipedia.org/wiki/Captain_America" target="_blank"><img src="Captain%20America.jpg" ></a>
+  <a href="https://en.wikipedia.org/wiki/Black_Panther_(character)" target="_blank"><img src="Black%20Panther.jpg" ></a>
+<a href="https://en.wikipedia.org/wiki/Hulk" target="_blank"><img src="Hulk.jpg"></a>
+    <a href="https://en.wikipedia.org/wiki/Iron_Man" target="_blank"><img src="Iron%20man.jpg" ></a>
+    </div>
+    <div class="row">
+    <a href="https://en.wikipedia.org/wiki/Thanos" target="_blank"><img src="Thanos.jpg"></a>
+
+    <a href="https://en.wikipedia.org/wiki/Thor" target="_blank"><img src="Thor.jpg" ></a>
+  <a href="https://en.wikipedia.org/wiki/Gamora" target="_blank"><img src="Gamora.jpg" ></a> 
+ <a href="https://en.wikipedia.org/wiki/Black_Widow_(Natasha_Romanova)"><img src="Black-Widow.jpg" ></a>
+        </div>
     </section>    
 <br>
     <section>
- <h1>sliding gallery</h1> 
+ <h1 style="font-weight: bold;">Sliding Gallery</h1> 
 <div id="mycarousel" class="carousel slide" data-ride="carousel">
 <div class="carousel-inner">
- <div class="item-active">
+ <div class="item active">
 <center>
   <a href="https://en.wikipedia.org/wiki/Captain_America" target="_blank"><img src="Captain%20America.jpg" class="gafas"></a>
   <div class="carousel-content">
@@ -88,11 +98,11 @@
 </center>    
 </div>
 </div> 
-<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+<a class="left carousel-control" href="#mycarousel" data-slide="prev">
    <span class="glyphicon glyphicon-chevron-left"></span>     
         </a>
     
-     <a class="right carousel-control" href="#myCarousel" data-slide="next">
+     <a class="right carousel-control" href="#mycarousel" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>   
         </a>
 </div>
